@@ -72,8 +72,8 @@ public class MainActivity extends AppCompatActivity {
                 String acompanhamentosSelecionados = acompanhamentos();
 
                 String pedido = cliente + "\n\n" +
-                        proteinaSelecionada + "\n" +
-                        molhosSelecionados + "\n" +
+                        proteinaSelecionada + "\n\n" +
+                        molhosSelecionados + "\n\n" +
                         acompanhamentosSelecionados;
 
                 tvSaidaPedido.setText(pedido);
