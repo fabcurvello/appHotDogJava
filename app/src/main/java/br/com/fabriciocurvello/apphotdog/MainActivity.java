@@ -72,8 +72,8 @@ public class MainActivity extends AppCompatActivity {
                 String acompanhamentosSelecionados = acompanhamentos();
 
                 String pedido = cliente + "\n\n" +
-                        proteinaSelecionada + "\n\n" +
-                        molhosSelecionados + "\n\n" +
+                        proteinaSelecionada + "\n" +
+                        molhosSelecionados + "\n" +
                         acompanhamentosSelecionados;
 
                 tvSaidaPedido.setText(pedido);
@@ -131,10 +131,10 @@ public class MainActivity extends AppCompatActivity {
         List<String> acompanhamentosSelecionados = new ArrayList<>();
 
         if (swMilho.isChecked()) {
-            acompanhamentosSelecionados.add("Alface");
+            acompanhamentosSelecionados.add("Milho");
         }
         if (swErvilha.isChecked()) {
-            acompanhamentosSelecionados.add("Tomate");
+            acompanhamentosSelecionados.add("Ervilha");
         }
         if (swQueijoRalado.isChecked()) {
             acompanhamentosSelecionados.add("Queijo Ralado");
