@@ -49,7 +49,6 @@ Esta mesma aplicação também foi desenvolvida em **Kotlin**: [appHotDogFastFoo
 
 Outros repositórios de aula com o mesmo tema:
 
-- [AppHotDogAnima](https://github.com/fabcurvello/AppHotDogAnima)
 - [appHotDogFastFoodKotlin](https://github.com/fabcurvello/appHotDogFastFoodKotlin)
 - [AppHotDogFastFoodKotlinCom3Activities](https://github.com/fabcurvello/AppHotDogFastFoodKotlinCom3Activities)
 
